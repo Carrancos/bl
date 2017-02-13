@@ -1,0 +1,44 @@
+/*
+Theme Name: Bethie Life
+Theme URI: http://bethielife.com
+Author: BethieLife
+Author URI: http://carrancomarketing.com.com
+Description: Custom theme made for BethieLife. This theme is fully responsive. 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Bethie Life
+
+*/
+
+/* # Imports
+---------------------------------------------------------------------------------------------------- */
+@import url(@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+
+/* # Defaults
+---------------------------------------------------------------------------------------------------- */
+
+/* # Overrides
+---------------------------------------------------------------------------------------------------- */
+
+/* # Headings
+---------------------------------------------------------------------------------------------------- */
+
+
+/* # Header
+---------------------------------------------------------------------------------------------------- */
+header {
+	background-color:#000000;
+}
+.navbar-brand{
+	height: auto;
+}
+ul.sub-menu{
+	display:none;
+    position: absolute;
+    width: 200px;
+}
+nav .dropdown:hover ul.sub-menu{
+	display: block;
+}
